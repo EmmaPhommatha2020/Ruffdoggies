@@ -1,0 +1,47 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+// Variables
+$font-family: 'Roboto', sans-serif;
+$font-color: #00263e;
+$yellow: rgb(233, 177, 23);
+
+// Variables for centering, declare: @include center
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// import component SASS files
+@import './../styles/Header';
+@import './../styles/Footer';
+@import './../styles/Home';
+@import './../styles/Contact';
+@import './../styles/Collections';
+@import './../styles/ProductCard';
+@import './../styles/Product';
+@import './../styles/Cart';
+@import './../styles/CartRow';
+@import './../styles/Search';
+@import './../styles/Checkout';
+
+
+
+
+// Global apply to get rid of all annoying blue underlines and purple link text for hyperlinks
+a { text-decoration: none; color: $font-color;}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+// body {overflow-x: hidden; }

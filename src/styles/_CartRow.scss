@@ -1,0 +1,58 @@
+.cart_row{
+    height: 132px;
+    // background: red;
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    img{
+        height: 111px;
+    }
+    .prod_info{
+        // background: yellow;
+        width: 260px;
+        h2{
+            margin: 0px 0px 5px 0px;
+            color: #00263E;
+            font-size: 20px;
+        }
+        .category {
+            color: #888;
+           
+        }
+        .specification{
+            font-family: $font-family;
+            font-size: 18px;
+            letter-spacing: .5px;
+            color: #888;
+            font-weight: 700;
+        }
+        .size-container{
+            margin-top: 10px;
+        }
+    }
+    
+    .remove{
+        font-weight: 700;
+        color: $font-color;
+        cursor: pointer;
+    }
+    .qty_input{
+        // background: green;
+        input{
+            width: 80px;
+            height: 57px;
+            text-align: center;
+            border: 3px #00263E solid;
+            font-size: 20px;
+            outline: 0;
+        }
+    }
+    .price{
+        width: 83.4px;
+        // background: red;
+        font-weight: 300;
+        color: $font-color;
+        font-size: 20px;
+    }
+}
